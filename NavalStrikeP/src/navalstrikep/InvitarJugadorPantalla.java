@@ -119,7 +119,7 @@ public class InvitarJugadorPantalla extends PantallaBase {
         j2 = j2.trim();
 
         if (j2.isEmpty()) {
-            alertaError("Ingresa el usuario del Jugador 2 (o EXIT para cancelar).");
+            alertaError("Ingresa el usuario del Jugador 2 .");
             txtInvitado.requestFocus();
             return;
         }
